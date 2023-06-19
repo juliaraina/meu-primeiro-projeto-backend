@@ -6,6 +6,7 @@ const app = express();
 
 const porta = 3333;
 
+//toda função atrelada a uma rota, recebe os parametros request, response..
 function mostraMulher(request, response) {
     response.json({
         nome: 'Julia Raina',
