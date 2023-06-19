@@ -8,9 +8,9 @@ const Mulher = require('./mulherModel');
 
 const app = express(); //aqui estou iniciando o app
 app.use(express.json())
-app.use(cors)
+app.use(cors())
 
-const porta = 3333; //aqui estou criando a porta
+const porta = 3333 //aqui estou criando a porta
 
 //GET
 async function mostraMulheres(request, response) {
